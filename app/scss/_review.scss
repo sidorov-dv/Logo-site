@@ -1,0 +1,67 @@
+.review {
+    height: 680px;
+    background-image: url("../media/dest/jpg/fon-resp.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    &::before {
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000, $alpha: 0.5);
+    }
+}
+
+.slider-cont {
+    margin: 120px auto;
+    height: 440px;
+    z-index: 10;
+}
+
+.mySliderOpt {
+    padding: 50px 0;
+    max-width: 90%;
+    margin: 0 auto;
+    .carousel-indicators {
+        bottom: 0;
+        .myBtn {
+            width: 16px;
+            height: 16px;
+            border: none;
+            transform: rotate(45deg);
+            background-color: green;
+            margin: 10px;
+        }
+    }
+}
+
+.myNumSlide {
+     
+    .img-cont {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        margin: 25px auto 50px;
+        transform: rotate(-45deg);
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+            transform: rotate(45deg) scale(1.45);
+        }
+    }
+    p {
+        max-width: 80%;
+        font-family: 'Mont-reg', sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 1.5px;
+
+    }
+}
+
+
+

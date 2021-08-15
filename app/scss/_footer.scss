@@ -1,0 +1,33 @@
+.part1 {
+    background-color: #fff;
+    height: 320px;
+    padding-top: 115px;
+    h2 {
+        font-family: 'Mont-bl', sans-serif;
+        letter-spacing: 2.5px;
+        margin-bottom: 35px;
+    }
+    .soc-icons {
+        max-width: 360px;
+        svg {
+        fill: grey;
+        width: 20px;
+        height: 20px;
+        transition: 0.5s;
+            &:hover {
+                fill:green;
+            }
+        }
+
+        
+    }
+}
+
+.part2 {
+    background-color: #3c3c3c;
+    min-height: 125px;
+    padding-top: 50px;
+    p {
+        font-family: 'Roboto', sans-serif;
+    }
+}

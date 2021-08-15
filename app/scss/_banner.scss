@@ -1,0 +1,131 @@
+/* BANNER */
+.banner1, .banner2, .banner3 {
+    background-color: #0dcaf0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    //position: relative;
+    width: 100%;
+    height: 100vh;
+    // &::after {
+    //     position: absolute;
+    //     content: '';
+    //     left: 0;
+    //     top: 0;
+    //     width: 100%;
+    //     height: 100%;
+    //     background-color:rgba($color: #000, $alpha: 0.5);
+    // }
+
+}
+
+.banner1 {
+    background-image: url("../media/dest/jpg/head-banner2.jpg");
+}
+.banner2 {
+    background-image: url("../media/dest/jpg/head-banner1.jpg");
+}
+.banner3 {
+    background-image: url("../media/dest/jpg/head-banner3.jpg");
+}
+
+.carousel-indicators {
+    bottom: 70px;
+    @media all and (max-width:767px) {
+        & {
+            bottom: 10px;
+        }
+        
+    }
+    .pag-banner {
+        width: 12px;
+        height: 12px;
+        border: 1px solid #fff;
+        background-color: transparent;
+        margin-left: 10px;
+        margin-right: 10px;
+        transform: rotate(45deg);
+        &:hover {
+            background-color:#0dcaf0;
+    
+        }
+    }
+    
+}
+
+.header {
+    margin-bottom: 300px;
+    @media all and (max-width: 767px) {
+        & {
+            margin-bottom: 5vh;
+     
+        }
+
+    }
+    //z-index: 5;
+    .logo {
+        border: solid 2px #fff;
+        width: 64px;
+        height: 60px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        line-height: 1;
+        letter-spacing: 1.5px;
+        color:#fff;
+        &:hover {
+            color:#0dcaf0;
+        }
+        
+    }
+    .navbar-toggler-icon {
+        width: 2.5em;
+        height: 2.5em;
+        .mob-menu {
+            width: 100%;
+            height: 100%;
+            fill:#fff;
+            &:hover {
+                fill: #0dcaf0;
+            }
+        }
+    }
+ 
+    li {
+       
+        a {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            letter-spacing: 1.5px;
+            color:#fff;
+        }
+        @media all and (max-width: 767px) {
+            a {
+                // margin-bottom: 5px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+                letter-spacing: 1.5px;
+                color:#fff;
+            }
+
+        }
+       
+    }
+}
+.slogan {
+    h1 {
+        margin-bottom: 30px;
+        font-family: 'Mont-med', sans-serif;
+        letter-spacing: 2px;
+        // font-size: 50px;
+    }
+    .learn {
+        display: block;
+        font-family: 'Mont-reg', sans-serif;
+        font-size: 18px;
+        letter-spacing: 2px;
+        &:hover {
+            color:#0dcaf0;
+        }
+    }
+}
+

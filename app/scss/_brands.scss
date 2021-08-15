@@ -1,0 +1,27 @@
+.brands {
+    height: 280px;
+    a {
+        font-size: 30px;
+        color:grey;
+        @media all and (max-width: 500px) {
+            font-size: 18px;
+        }
+        font-family: 'Mont-bold', sans-serif;
+        text-transform: uppercase; 
+        transition: 0.5s;
+        &:hover {
+            color:mediumvioletred;
+        }  
+        .icon {
+            width: 28px;
+            height: 28px;
+            fill:grey;
+            margin-right: 5px;
+            transition: 0.5s;
+            &:hover {
+                fill:mediumvioletred;
+            }
+        }         
+    }
+}
+
